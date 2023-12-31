@@ -85,4 +85,112 @@ module Language
         WorldStaticModel = MagazineWordSearch3_Ground,
 
     }
+    item CantoneseBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Cantonese,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item ArabicBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Arabic,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item HindiBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Hindi,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item PortugeseBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Portugese,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item KoreanBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Korean,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item DutchBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Dutch,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item PolishBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Polish,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item GreekBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Greek,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item HebrewBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Hebrew,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item SwedishBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Swedish,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item NorwegianBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Norwegian,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
+    item TagalogBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Tagalog,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
 }

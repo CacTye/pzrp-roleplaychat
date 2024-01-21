@@ -166,20 +166,20 @@ module Language
         WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
-    item SwedishBook
+    item ScandinavianBook
     {
         Weight	=	0.2,
         Type	=	Normal,
-        DisplayName	=	Buffetta Stone - Swedish,
+        DisplayName	=	Buffetta Stone - Scandinavian,
         Icon	=	MagazineWordsearch2,
         WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
-    item NorwegianBook
+    item GaelicBook
     {
         Weight	=	0.2,
         Type	=	Normal,
-        DisplayName	=	Buffetta Stone - Norwegian,
+        DisplayName	=	Buffetta Stone - Gaelic,
         Icon	=	MagazineWordsearch2,
         WorldStaticModel = MagazineWordSearch2_Ground,
 

@@ -51,7 +51,7 @@ ISChat.lockButtonName = "chat lock button"
 ISChat.gearButtonName = "chat gear button"
 ISChat.textPanelName = "chat text element"
 ISChat.windowName = "chat window"
-ISChat.languages = { "Empty Slot", "Spanish", "Russian", "Ukrainian", "German", "French", "Mandarin", "Japanese", "ASL", "Cantonese", "Arabic", "Hindi", "Portugese", "Korean", "Dutch", "Polish", "Greek", "Hebrew", "Swedish", "Norwegian", "Tagalog" }
+ISChat.languages = { "Empty Slot", "Spanish", "Russian", "Ukrainian", "German", "French", "Mandarin", "Japanese", "ASL", "Cantonese", "Arabic", "Hindi", "Portugese", "Korean", "Dutch", "Polish", "Greek", "Hebrew", "Scandinavian", "Gaelic", "Italian", "Tagalog" }
 -- start roleplaychat settings
 ISChat.rpName = "Unknown"
 ISChat.rpColor = "" --player names in chat

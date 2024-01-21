@@ -184,6 +184,15 @@ module Language
         WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
+    item ItalianBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Italian,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
     item TagalogBook
     {
         Weight	=	0.2,

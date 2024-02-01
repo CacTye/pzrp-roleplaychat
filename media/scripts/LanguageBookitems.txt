@@ -175,11 +175,11 @@ module Language
         WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
-    item GaelicBook
+    item IrishBook
     {
         Weight	=	0.2,
         Type	=	Normal,
-        DisplayName	=	Buffetta Stone - Gaelic,
+        DisplayName	=	Buffetta Stone - Irish,
         Icon	=	MagazineWordsearch2,
         WorldStaticModel = MagazineWordSearch2_Ground,
 

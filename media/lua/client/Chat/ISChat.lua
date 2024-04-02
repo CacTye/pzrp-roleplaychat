@@ -908,7 +908,7 @@ function ISChat:onCommandEntered()
             -- .
         elseif chatStreamName == "whisperme" then
             local mePlayer = getPlayer();
-            mecurrenttime = getGameTime():getHour();
+            mecurrenttime = getGameTime():getHour() * 60 + getGameTime():getMinutes();
             mecooldown = mecooldown or 0;
             local combined = ISChat.instance.whisperIdentifier ..ISChat.instance.rpColor .. " �**" .. ISChat.instance.rpName .. "��� " .. command
             command = combined;
@@ -924,7 +924,7 @@ function ISChat:onCommandEntered()
                     stats:setStressFromCigarettes(stats:getStressFromCigarettes() - 50)
                     mentalhealth:setBoredomLevel(mePlayer:getBodyDamage():getBoredomLevel() - 50);
                     mentalhealth:setUnhappynessLevel(mePlayer:getBodyDamage():getUnhappynessLevel() - 50);
-                    mecooldown = getGameTime():getHour() + 1;
+                    mecooldown = getGameTime():getHour() * 60 + getGameTime():getMinutes() + 30;
                 end
             end
         -- .
@@ -1017,7 +1017,7 @@ function ISChat:onCommandEntered()
             processSayMessage(command);
         elseif chatStreamName == "melow" then
             local mePlayer = getPlayer();
-            mecurrenttime = getGameTime():getHour();
+            mecurrenttime = getGameTime():getHour() * 60 + getGameTime():getMinutes();
             mecooldown = mecooldown or 0;
             local combined = ISChat.instance.lowIdentifier ..ISChat.instance.rpColor .. " �**" .. ISChat.instance.rpName .. "��� " .. command
             command = combined;
@@ -1033,13 +1033,13 @@ function ISChat:onCommandEntered()
                     stats:setStressFromCigarettes(stats:getStressFromCigarettes() - 50)
                     mentalhealth:setBoredomLevel(mePlayer:getBodyDamage():getBoredomLevel() - 50);
                     mentalhealth:setUnhappynessLevel(mePlayer:getBodyDamage():getUnhappynessLevel() - 50);
-                    mecooldown = getGameTime():getHour() + 1;
+                    mecooldown = getGameTime():getHour() * 60 + getGameTime():getMinutes() + 30;
                 end
             end
         -- .
         elseif chatStreamName == "melong" then
             local mePlayer = getPlayer();
-            mecurrenttime = getGameTime():getHour();
+            mecurrenttime = getGameTime():getHour() * 60 + getGameTime():getMinutes();
             mecooldown = mecooldown or 0;
             local combined = ISChat.instance.longIdentifier .. ISChat.instance.rpColor .. " �**" .. ISChat.instance.rpName .. "��� " .. command;
             command = combined;
@@ -1055,7 +1055,7 @@ function ISChat:onCommandEntered()
                     stats:setStressFromCigarettes(stats:getStressFromCigarettes() - 50)
                     mentalhealth:setBoredomLevel(mePlayer:getBodyDamage():getBoredomLevel() - 50);
                     mentalhealth:setUnhappynessLevel(mePlayer:getBodyDamage():getUnhappynessLevel() - 50);
-                    mecooldown = getGameTime():getHour() + 1;
+                    mecooldown = getGameTime():getHour() * 60 + getGameTime():getMinutes() + 30;
                 end
             end
         -- .
@@ -1088,7 +1088,7 @@ function ISChat:onCommandEntered()
         -- try for yourself using *color* instead of this unicode system to see what i mean; you have dialogue in quotes colored but smashed right up against the rest of the emote.
         elseif chatStreamName == "me" then
             local mePlayer = getPlayer();
-            mecurrenttime = getGameTime():getHour();
+            mecurrenttime = getGameTime():getHour() * 60 + getGameTime():getMinutes();
             mecooldown = mecooldown or 0;
             local combined = ISChat.instance.rpColor .. ISChat.instance.meIdentifier .. ISChat.instance.rpName .. "��� " .. command;
             command = combined;
@@ -1104,7 +1104,7 @@ function ISChat:onCommandEntered()
                     stats:setStressFromCigarettes(stats:getStressFromCigarettes() - 50)
                     mentalhealth:setBoredomLevel(mePlayer:getBodyDamage():getBoredomLevel() - 50);
                     mentalhealth:setUnhappynessLevel(mePlayer:getBodyDamage():getUnhappynessLevel() - 50);
-                    mecooldown = getGameTime():getHour() + 1;
+                    mecooldown = getGameTime():getHour() * 60 + getGameTime():getMinutes() + 30;
                 end
             end
         -- .

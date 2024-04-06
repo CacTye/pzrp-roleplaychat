@@ -202,4 +202,13 @@ module Language
         WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
+    item LatinBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Latin,
+        Icon	=	MagazineWordsearch2,
+        WorldStaticModel = MagazineWordSearch2_Ground,
+
+    }
 }

@@ -7,7 +7,7 @@ function ISInventoryMenuElements.ContextLanguageBooks(context)
     self.invMenu = ISContextManager.getInstance().getInventoryMenu();
     local player = getPlayer()
     local modData = player:getModData()
-    local languages = { "Spanish", "Russian", "Ukrainian", "German", "French", "Mandarin", "Japanese", "ASL", "Cantonese", "Arabic", "Hindi", "Portugese", "Korean", "Dutch", "Polish", "Greek", "Hebrew", "Scandinavian", "Italian", "Tagalog", "Latin" }
+    local languages = { "Spanish", "Russian", "Ukrainian", "German", "French", "Mandarin", "Japanese", "ASL", "Cantonese", "Arabic", "Hindi", "Portugese", "Korean", "Dutch", "Polish", "Greek", "Hebrew", "Scandinavian", "Italian", "Tagalog", "Latin", "Irish" }
     function self.init()
     end
 
